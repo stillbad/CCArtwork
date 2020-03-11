@@ -1,0 +1,9 @@
+Package: com.colec.ccmusicartwork
+Name: CCMusicArtwork
+Depends: mobilesubstrate, firmware (>= 13.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Album artwork in music cc module.
+Maintainer: cole cabral
+Author: cole cabral
+Section: Tweaks

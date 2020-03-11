@@ -5,7 +5,7 @@ Show your current now playing album artwork inside the control center music modu
 
 |     |     |     |
 |-----|-----|-----|
-|![Preview](https://i.imgur.com/h4aSmw1.png)  | ![Preview](https://i.imgur.com/uHExVqD.png)    | ![Preview](https://i.imgur.com/DFP1vOs.png) |
+|![Preview](https://i.imgur.com/KBaMDvw.png)  | ![Preview](https://i.imgur.com/t1T37ha.png)    | ![Preview](https://i.imgur.com/KIKXR8g.png) |
 
 
 Available on Packix repo.

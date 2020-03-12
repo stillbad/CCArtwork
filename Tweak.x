@@ -86,3 +86,18 @@ UIImageView *imageView;
 }
 
 %end
+
+%ctor {
+    NSArray *args = [[NSClassFromString(@"NSProcessInfo") processInfo] arguments];
+    NSUInteger count = args.count;
+    if (count != 0) {
+        NSString *executablePath = args[0];
+        if (executablePath) {
+            BOOL isApplication = [executablePath rangeOfString:@"/Application"].location != NSNotFound;
+            BOOL isSpringBoard = [[executablePath lastPathComponent] isEqualToString:@"SpringBoard"];
+            if ((isApplication || isSpringBoard)) {
+                %init;
+            }
+        }
+    }
+}

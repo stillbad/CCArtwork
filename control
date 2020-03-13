@@ -1,6 +1,7 @@
 Package: com.colec.ccmusicartwork
-Name: CCMusicArtwork
+Name: CCArtwork
 Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.spark.ccmusicartwork
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: Album artwork in music cc module.

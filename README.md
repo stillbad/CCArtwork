@@ -1,4 +1,4 @@
-CCMusicArtwork
+CCArtwork
 =================
 
 Show your current now playing album artwork inside the control center music module. No options to configure. No noticeable effect on battery life. This tweak is available as a commerical package.

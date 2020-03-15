@@ -82,7 +82,9 @@ UIImageView *imageView;
 
 -(void)viewWillDisappear:(BOOL)disappear {
     %orig;
-    [notificationCenter removeObserver:self name:(__bridge NSString *)kMRMediaRemoteNowPlayingInfoDidChangeNotification object:nil];
+    if ([self.moduleIdentifier isEqualToString:@"com.apple.mediaremote.controlcenter.nowplaying"]) {
+        [notificationCenter removeObserver:self name:(__bridge NSString *)kMRMediaRemoteNowPlayingInfoDidChangeNotification object:nil];
+    }
 }
 
 %end
